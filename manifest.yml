@@ -3,6 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: ibm-100-anos
-  host: ibm-100-anos-${random-word}
+  name: ibm-dbg-aboutmyself
+# Change "${random-word}" to your name, for instance: ibm-dbg-sergiogama
+  host: ibm-dbg-${random-word}
   disk_quota: 1024M

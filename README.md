@@ -1,8 +1,18 @@
-# Exemplo de Chatbot com Watson Conversation em Node.js
+# Chatbot with Watson Conversation in Node.js
 
-Este aplicação é um demo de cliente de Chatbot com o objetivo comemorativo dos 100 anos de IBM no Brasil. Basta criar um conversation, colocar as credenciais neste app e fazer o deploy no Bluemix.
+This app is a front-end of a chatbot that uses Watson Conversation. 
+Please do the following steps:
+1) Create a account on https://www.bluemix.net;
+2) Go to Bluemix catalog and create a Watson Conversation service;
+3) Create a conversation as the guidance -->> 
+4) Back to Bluemix catalog and create Continuous Delivery service and follwoing steps -->>
+5) Change the file config/bot.js with your credentials of Watson Conversation and WOrkspace id create, in lines 26, 27 and 32, as the following:
+    username = "xxxx-xxxx-xxxxxx-xxxx";
+    password = "xxxxxxxx";
+    conversationWorkspace = "xxx-xxxxx-xxxxx-xxxxx-xxxx";
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/sergiogama/ibm-100-anos-bot)
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/sergiogama/ibm-dbg-chatbot)
 
 ## Para executar o app localmente
 
